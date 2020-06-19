@@ -1,37 +1,6 @@
-# FedEx Frontend QA - Javascript Test Assessment
+How to RUN
 
-Currently the project works with **NODEJS 10 LTS** environment. Please make sure you MAC/PC has a 10.x node version installed. (https://nodejs.org/dist/latest-v10.x/). You can also try NODEJS 12 LTS as an experiment but support has not been verified. 
 
-Run ```node -v``` in a terminal to see which version of NodeJS you have
-
-# App specs
-
-Welcome to our Star Wars Search web application. Our app is for the Star Wars enthusiasts who would like to find some information for some of their favorite characters and planets.
-
-The application is in this repository in the `src` folder. Feel free to browse or modify the code if you need to. 
-
-So, what you should expect when using this app are the following:
-
-## Main features
-
-### Search for character (person)
-*	When you search for **a character** and it’s a valid one, then you should be able to see his / her “Gender”, “Birth year”, “Eye color” and “Skin color”.
-*	When you search for a character and it’s not a valid one, then you should be able to see “Not found” in the results.
-
-### Search for planet
-*	When you search for **a planet** and it’s a valid one, then you should be able to see its “Population”, “Climate” and “Gravity”.
-*	When you search for a planet and it’s not a valid one, then you should be able to see “Not found” in the results.
-
-### Additional flows
-*	When you search for either a character or a planet and you get one or more results for it, clear the “Search form” and hit the Search button again, you should then get an empty result list (previous search results are removed).
-*	You can search for results by clicking the “Search” button or by pressing “enter” on the search field.
-*	When for example you have searched for a full planet name and you’ve got results, if you switch to People and search for the same thing (that has no matching people based on a partial name), you should get a “Not found” in the results.
-*	You can have more than one results, for both Planets and Names (partial matching)
-
-## Requirements
-* **NodeJS 10**
-* Chrome browser
-* Tested on Mac OS X
 
 ## Installation
 
